@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav .navbar .navbar-expand-lg{
+    background: rgb(213, 148, 102) ;
+}
+.navbar .navbar-brand{
+   color: chocolate;
+}
