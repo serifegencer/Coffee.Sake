@@ -3,9 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav .navbar .navbar-expand-lg{
-    background: rgb(213, 148, 102) ;
+nav {
+    background-color: rgb(173, 110, 65) ;
 }
 .navbar .navbar-brand{
-   color: chocolate;
+   color: white;
 }
+.navbar a{
+    color: black;
+  
+}
+
+.navbar a{
+   
+    transition: all 0.5 ease-in-out;
+}
+
+
+nav form button{
+    border-radius: 0;
+    border: 2px solid white;
+    
+}
+ section {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 92vh;
+    background-size: cover;
+    background-image: url(image/bc3.png);
+    
+ }
+  
+ section div .button button{
+    transition: 0.5s ease-in-out;
+  
+ }
+ section div .button button:hover{
+    color:  white !important;
+    background-color: rgb(173, 110, 65) !important;
+    
+ }
+ div .submit button{
+    color:rgb(173, 110, 65) ;
+    border-color: rgb(173, 110, 65)  !important;
+ }
+
+ .about .color{
+    color:rgb(173, 110, 65) ;
+ }
+ div .submit button:hover{
+    color: white;
+    background-color:rgb(173, 110, 65) ;
+ }
+ nav form button {
+    border-color: white !important;
+ }
+
+ .categorie .color{
+    color:rgb(173, 110, 65) ;
+ }
