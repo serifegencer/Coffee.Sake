@@ -1,7 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 nav {
     background-color: rgb(173, 110, 65) ;
@@ -10,7 +12,7 @@ nav {
    color: white;
 }
 .navbar a{
-    color: black;
+    color: black ;
   
 }
 
@@ -59,6 +61,108 @@ nav form button{
     border-color: white !important;
  }
 
- .categorie .color{
+ .category .color{
     color:rgb(173, 110, 65) ;
  }
+
+.image img {
+    width:300px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: translateY(20px);
+}
+.image img:hover{
+    transform: rotate(0);
+}
+div.menu {   
+    width: 80%;
+    border-bottom: 2px  solid rgb(173, 110, 65) !important;
+    
+   
+}
+.menu h4 {
+    color:rgb(173, 110, 65) ;
+    
+}
+div .row{
+    width: 80vh;
+}
+div .card-body{
+    color: rgb(173, 110, 65) ;
+}
+.column1 {
+    width: 80%;
+    margin: auto;
+}
+
+div .product{   
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px  solid rgb(173, 110, 65) !important;
+    
+   
+}
+.product h4 {
+    color:rgb(173, 110, 65) ;
+    
+}
+.column1 h3 {
+    font-size: 20px;
+}
+
+.gallary h4 {
+    color:rgb(173, 110, 65) ;
+}
+.gallary1 img {
+    width:300px;
+    border-radius: 8px;
+}
+main span{
+    color:rgb(173, 110, 65);
+}
+ main .box{
+    background:linear-gradient(90deg,  white 80%, rgb(173, 110, 65)20% );
+    border-radius:8px ;
+    justify-content: space-around;
+
+
+}
+main .contact{
+    width: 80%;
+    margin:auto;
+}
+
+main div .person input{
+    border: none;
+    border-bottom: 2px  solid rgb(173, 110, 65);
+    width:350px;
+}
+
+div .person button{
+    background-color:rgb(173, 110, 65) ;
+    color: white;
+    border: none;
+}
+main p{
+    font-size: 15px;
+}
+div .info{
+    width: 320px;
+    height: 320px;
+    background-color: black;
+    color: white;  
+    align-self:flex-end ;
+}
+div .info div{
+    margin-top:8px ;
+    
+}
+.latest span{
+    color:rgb(173, 110, 65) ;
+}
+
+.blogs a {
+    background-color:rgb(173, 110, 65) !important ;
+    border: none;
+}
