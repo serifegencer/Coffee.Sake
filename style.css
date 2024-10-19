@@ -166,3 +166,12 @@ div .info div{
     background-color:rgb(173, 110, 65) !important ;
     border: none;
 }
+footer{
+    background: rgb(173, 110, 65);
+}
+footer .logo{
+    color:white ;
+}
+footer div{
+    font-size: small;
+}
